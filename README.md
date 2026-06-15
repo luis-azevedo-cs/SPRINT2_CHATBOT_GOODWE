@@ -9,14 +9,14 @@
 
 ---
 
-## 1. O Problema Abordado
+## O Problema Abordado
 No cenário atual de eletromobilidade, os hubs de carregamento comercial enfrentam um grande desafio técnico e operacional: a ausência de mecanismos integrados e amigáveis para orquestrar potência, registrar ciclos de carga, faturar e comunicar dados complexos aos usuários (escopo *ChargeGrid Intelligence*). 
 
 O mercado de energia envolve conceitos técnicos densos (como kW, kWh, Tarifa Branca e eficiência de ciclo) que geram atrito e afastam o engajamento do motorista comum. Além disso, a implementação de carregamento bidirecional (V2G) esbarra no medo dos usuários quanto à degradação acelerada da bateria e nas rígidas barreiras regulatórias da ANEEL no Brasil, que dificultam transações financeiras diretas (dinheiro em conta) para o consumidor de varejo.
 
 ---
 
-## 2. Proposta do Chatbot e Justificativa de Escopo
+## Proposta do Chatbot e Justificativa de Escopo
 * **Escopo Escolhido:** ChargeGrid Intelligence (Hub de Carregamento Comercial em shoppings e eletropostos).
 * **Persona Alvo:** O Motorista de Veículo Elétrico (EV) que utiliza o hub comercial.
 
@@ -35,7 +35,7 @@ O *ChargeGrid Conversation AI* é um agente conversacional inteligente integrado
 
 ---
 
-## 3. Arquitetura Tecnológica
+## Arquitetura Tecnológica
 * **Framework de Orquestração (LangChain / LlamaIndex):** Utilizado para gerenciar a memória da conversação de forma dinâmica e conectar o modelo a fluxos de dados.
 * **Modelo de Linguagem (OpenAI API GPT-4o-mini / Llama 3):** Escolhido pela alta velocidade de inferência, custo-benefício e excelente capacidade de extração de intenções do usuário.
 * **Banco de Dados Vetorial (ChromaDB / Pinecone):** Utilizado para implementar a arquitetura RAG (Retrieval-Augmented Generation) com os manuais técnicos dos inversores GoodWe.
@@ -71,7 +71,7 @@ Abaixo estão registrados os testes de escopo e aderência às regras de negóci
 
 ---
 
-## 4. Pré-requisitos e Instalação
+## Pré-requisitos e Instalação
 
 ### Dependências necessárias:
 Certifique-se de ter o Python 3.10+ instalado. Instale os pacotes necessários rodando:
