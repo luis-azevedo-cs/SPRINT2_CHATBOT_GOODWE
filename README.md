@@ -35,6 +35,10 @@ O *ChargeGrid Conversation AI* é um agente conversacional inteligente integrado
 
 ---
 
+![Fluxograma do Chatbot](docs/Fluxograma.png)
+
+---
+
 ## Arquitetura Tecnológica
 * **Framework de Orquestração (LangChain / LlamaIndex):** Utilizado para gerenciar a memória da conversação de forma dinâmica e conectar o modelo a fluxos de dados.
 * **Modelo de Linguagem (OpenAI API GPT-4o-mini / Llama 3):** Escolhido pela alta velocidade de inferência, custo-benefício e excelente capacidade de extração de intenções do usuário.
