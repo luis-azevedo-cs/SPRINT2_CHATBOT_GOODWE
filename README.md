@@ -1,11 +1,11 @@
 # ChargeGrid Conversation AI — (GoodWe Challenge 2026)
 
 ## Integrantes
-* **Aline Medri Marcolino** - RM: 569349
-* **Luis Fernando de Azevedo** - RM: 574167
+* **Aline Medri Marcolino**        - RM: 569349
+* **Luis Fernando de Azevedo**     - RM: 574167
 * **Eduardo Novaki Santos Coelho** - RM: 572649
-* **Gabriel dos Santos Siqueira** - RM: 572200
-* **Pedro Arthur Campos Reis** - RM: 569913
+* **Gabriel dos Santos Siqueira**  - RM: 572200
+* **Pedro Arthur Campos Reis**     - RM: 569913
 
 ---
 
